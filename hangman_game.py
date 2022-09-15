@@ -72,7 +72,7 @@ O    |
 class Hangman:
 
     #metodo construtor
-    def __init__(self, palavra): #inicia a classe
+    def __init__(self, palavra): #inicia a classe, o self é o proprio hangman, faz referencia a classe que esta sendo criada
         self.palavra = palavra
         self.letra_errada = []
         self.letra_certa = []
